@@ -2,13 +2,14 @@
 
 ## Commands I always need!
 
-**Install latest version of node:**
+**Install latest version of node:**  
 nvm install --lts
 
 NEED:
-Node
-npm 6.14.11
-@vue/cli
+
+- Node
+- npm 6.14.11
+- @vue/cli
 
 **To check your global installed packages you can type:**
 npm ls -g --depth=0
