@@ -43,9 +43,9 @@ npm install -g @vue/cli
 **Create a Vue project**  
 vue create <name-of-project>
 
-**Run the Vue server**  
-npm run serve (to start up development server)
-cd into project directory first
+**Start up development server**  
+cd <project-name>  
+npm run serve
 
 **Start the UI dashboard**  
 vue ui
