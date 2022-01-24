@@ -35,7 +35,7 @@ npm update <package>
 or:
 npm update - to update everything
 
-## vue
+## Vue.js
 
 **Install the CLI**  
 npm install -g @vue/cli
@@ -53,7 +53,7 @@ vue ui
 **Buidl the Vue app**  
 npm run build
 
-##Nuxt
+## Nuxt.js
 
 **Create a Nuxt App**  
 npx create-nuxt-app <project-name>
@@ -61,15 +61,20 @@ npx create-nuxt-app <project-name>
 **To use css pre-processors:**  
 npm install --save-dev sass sass-loader@10 fibers
 
-To use Global sass variables:
-npm install --save-dev @nuxtjs/style-resources
-See https://github.com/nuxt-community/style-resources-module for more
+**To use Global sass variables:**  
+npm install --save-dev @nuxtjs/style-resources  
+(See https://github.com/nuxt-community/style-resources-module for more)
 
+**Start up the Nuxt Server**  
 cd <project-name>
 npm run dev - run dev server
 
-npx nuxt build (set target in nuxt.config.js)
+**Build project**
+(set target in nuxt.config.js)
+npx nuxt build
 
-npx nuxt generate (generate static site in dist directory)
+**generate static site in dist directory**
+npx nuxt generate
 
-npx nuxt start (start dev server for static site
+**start dev server for static site**
+npx nuxt start
