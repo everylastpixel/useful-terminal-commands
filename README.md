@@ -14,7 +14,7 @@ nvm install --lts
 ## npm/node
 
 **To check global installed packages:**  
-npm ls -g --depth=0
+`npm ls -g --depth=0`
 
 That lists all global installed packages with depth=0. That mean that it doesn't output dependencies of the packages.
 
