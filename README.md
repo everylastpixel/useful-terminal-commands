@@ -44,7 +44,7 @@ npm install -g @vue/cli
 vue create <name-of-project>
 
 **Start up development server**  
-cd <project-name>  
+cd into project folder  
 npm run serve
 
 **Start the UI dashboard**  
@@ -65,9 +65,9 @@ npm install --save-dev sass sass-loader@10 fibers
 npm install --save-dev @nuxtjs/style-resources  
 (See https://github.com/nuxt-community/style-resources-module for more)
 
-**Start up the Nuxt Server**  
-cd <project-name>
-npm run dev - run dev server
+**Start up the Nuxt dev server**  
+cd into project folder  
+npm run dev
 
 **Build project**
 (set target in nuxt.config.js)
