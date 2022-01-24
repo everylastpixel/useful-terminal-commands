@@ -1,6 +1,6 @@
 # useful-terminal-commands
 
-## My go-to terminal commands for day-to-day use
+## Vue/Nuxt workflow terminal commands for day-to-day use
 
 **Install latest version of node:**  
 nvm install --lts
