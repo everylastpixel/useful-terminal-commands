@@ -77,4 +77,4 @@ cd into project folder
 `npx nuxt generate`
 
 **start dev server for static site**
-`npx nuxt start```
+`npx nuxt start`
