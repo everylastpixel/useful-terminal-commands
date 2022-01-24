@@ -5,23 +5,23 @@
 **Install latest version of node:**  
 nvm install --lts
 
-**Things I need very machine:**
+**Things I need on every machine:**
 
 - Node
-- npm 6.14.11
+- npm
 - @vue/cli
 
 ## npm/node
 
-**To check your global installed packages you can type:**  
+**To check global installed packages:**  
 npm ls -g --depth=0
 
 That lists all global installed packages with depth=0. That mean that it doesn't output dependencies of the packages.
 
-**You can uninstall global packages with:**  
+**To uninstall global packages:**  
 npm uninstall -g package-name
 
-Please do not uninstall the npm package itself...  
+**_Do not uninstall the npm package itself..._**  
 **But you can update your npm version with npm:**  
 npm install npm -g
 
