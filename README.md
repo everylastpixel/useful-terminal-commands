@@ -2,7 +2,7 @@
 
 ## Commands I always need!
 
-Install latest version of node:
+**Install latest version of node:**
 nvm install --lts
 
 NEED:
@@ -10,7 +10,7 @@ Node
 npm 6.14.11
 @vue/cli
 
-To check your global installed packages you can type:
+**To check your global installed packages you can type:**
 npm ls -g --depth=0
 
 That lists all global installed packages with depth=0. That mean that it doesn't output dependencies of the packages.
