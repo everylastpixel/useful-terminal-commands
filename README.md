@@ -11,6 +11,8 @@ nvm install --lts
 - npm 6.14.11
 - @vue/cli
 
+## npm/node
+
 **To check your global installed packages you can type:**  
 npm ls -g --depth=0
 
@@ -19,11 +21,11 @@ That lists all global installed packages with depth=0. That mean that it doesn't
 **You can uninstall global packages with:**  
 npm uninstall -g package-name
 
-Please do not uninstall the npm package itself...
-But you can update your npm version with npm:
+Please do not uninstall the npm package itself...  
+**But you can update your npm version with npm:**  
 npm install npm -g
 
-You can get the installed versions with these commands:
+**You can get the installed versions with these commands:**
 node -v
 npm -v
 
@@ -33,22 +35,30 @@ npm update <package>
 or:
 npm update - to update everything
 
-vue
+## vue
+
+**Install the CLI**  
 npm install -g @vue/cli
 
+**Create a Vue project**  
 vue create <name-of-project>
 
+**Run the Vue server**  
 npm run serve (to start up development server)
 cd into project directory first
 
-vue ui - to start the UI
+**Start the UI dashboard**  
+vue ui
 
-npm run build - build the app
+**Buidl the Vue app**  
+npm run build
 
-Nuxt
-npx create-nuxt-app <project-name> - create the app
+##Nuxt
 
-To use css pre-processors:
+**Create a Nuxt App**  
+npx create-nuxt-app <project-name>
+
+**To use css pre-processors:**  
 npm install --save-dev sass sass-loader@10 fibers
 
 To use Global sass variables:
