@@ -1,21 +1,22 @@
 # useful-terminal-commands
 
-## Commands I always need!
+## My go-to terminal commands for day-to-day use
 
 **Install latest version of node:**  
 nvm install --lts
 
-NEED:
+**Things I need very machine:**
 
 - Node
 - npm 6.14.11
 - @vue/cli
 
-**To check your global installed packages you can type:**
+**To check your global installed packages you can type:**  
 npm ls -g --depth=0
 
 That lists all global installed packages with depth=0. That mean that it doesn't output dependencies of the packages.
-You can uninstall global packages with:
+
+**You can uninstall global packages with:**  
 npm uninstall -g package-name
 
 Please do not uninstall the npm package itself...
