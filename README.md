@@ -1,6 +1,6 @@
 # useful-terminal-commands
 
-Commands I always need!
+## Commands I always need!
 
 Install latest version of node:
 nvm install --lts
