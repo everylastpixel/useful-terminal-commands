@@ -59,7 +59,7 @@ cd into project folder
 `npx create-nuxt-app project-name`
 
 **To use css pre-processors:**  
-`npm install --save-dev sass sass-loader@10 fibers`
+`npm install --save-dev sass sass-loader@10`
 
 **To use Global sass variables:**  
 `npm install --save-dev @nuxtjs/style-resources`
